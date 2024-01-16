@@ -14,5 +14,5 @@ list_y = list(map(getvalue, sheet['C'][1:]))
 list_z = list(map(getvalue, sheet['D'][1:]))
 
 pyplot.plot(list_x, list_y, label="Температура")
-pyplot.plot(list_x,list_z, label="Активность")
+pyplot.plot(list_x, list_z, label="Активность")
 pyplot.show()
